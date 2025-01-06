@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;1,600&family=Krona+One&family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&family=Krona+One&family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;1,300&family=Krona+One&family=Numans&display=swap');
+
+
+body {
+    background-color:  #f1c40f;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+.card{
+    text-align: center;
+    background-color: #ffffff;
+    width: 375px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 10px  solid #ffffff;
+    box-shadow: 10px 10px 10px 5px black;
+    height: 580px;
+    margin: 150px 
+    
+  
+
+   
+}
+
+.card_1{
+    width: 100%;
+    padding:  10px 5px;
+    border-radius: 10px;
+    
+}
+.botao{
+    color: black;
+    background-color: #f1c40f;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 20px;
+    display: flex;
+    width: 60px;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.Data_da_Publicacao{
+    margin: 10px 0;
+    font-size: 14px;
+    display: flex;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0px 20px 10px;
+}
+.titulo {
+    margin: 10px 0;
+    font-size: 25px;
+    display: flex;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    padding: 0px 20px 10px;
+   
+
+}
+.descricao {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 10px 0 10px;
+    display: flex;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+    width: 315px;
+    padding: 0px 20px 10px;
+    
+
+    
+}
+.autor{
+    display: flex;
+    align-items: center;
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.autor img {
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 0px 20px 10px;
+}
+.rodape{
+    align-items: flex-end;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Figtree", serif;
+      
+}
+@media (max-width: 600px) {
+
+
+    .card {
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    .titulo{
+        font-size: 20px;
+    }
+    .descricao {
+        font-size: 14px;
+    }
+}
